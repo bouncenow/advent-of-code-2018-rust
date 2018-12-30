@@ -6,6 +6,13 @@ use crate::common::*;
 const FIRST_KIND_COUNT: usize = 2;
 const SECOND_KIND_COUNT: usize = 3;
 
+pub fn ch2() {
+    println!("{}", checksum_for_ids_in_file("ch2.txt"));
+    for common_part in common_parts_of_closest_strings("ch2.txt") {
+        println!("{}", common_part);
+    }
+}
+
 pub fn checksum_for_ids_in_file(file_name: &str) -> usize {
     let ids = read_lines_from_file(file_name);
 
