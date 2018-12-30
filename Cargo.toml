@@ -1,0 +1,7 @@
+[package]
+name = "raoc"
+version = "0.1.0"
+authors = ["Andrey Lyshik <alyshik@okko.tv>"]
+edition = "2018"
+
+[dependencies]
