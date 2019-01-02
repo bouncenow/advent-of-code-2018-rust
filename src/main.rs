@@ -1,5 +1,5 @@
-use raoc::ch5::*;
+use raoc::ch6::*;
 
 fn main() {
-    ch5();
+    ch6();
 }
